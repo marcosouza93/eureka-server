@@ -4,7 +4,3 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
-
-java:
-  runtime:
-    version: 11
