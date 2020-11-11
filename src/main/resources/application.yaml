@@ -2,9 +2,7 @@ server:
   port: 8761
 eureka:
   instance:
-    hostname: localhost
+    prefer-ip-address: false
   client:
     registerWithEureka: false
     fetchRegistry: false
-    serviceUrl:
-      defaultZone: http://eureka-server-marco.herokuapp.com:8761/eureka/
